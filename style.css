@@ -1,0 +1,812 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    position: relative;
+
+}
+ol,li,ul{
+    list-style: none;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    padding: 100px;
+
+}
+.title h1{
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #222222;
+    padding: 30px;
+}
+.title p{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #222222;
+    width: 600px;
+    margin: 0 auto;
+}
+.c-c68E2C {
+    color: #cf942c !important;
+}
+.fz-14{
+    font-size: 14px!important;
+
+}
+.w-500{
+    width: 500px!important;
+
+}
+
+/************************************header top start************************/
+#header-top{
+    border-bottom: 1px solid #cf942c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#header-top .container .header-to-content{
+    padding: 15px 100px;
+
+}
+#header-top .container .header-to-content{
+    display: flex;
+    justify-content: space-between;
+}
+#header-top .container .header-to-content .left{
+    display: flex;
+
+}
+
+#header-top .container .header-to-content .item{
+    display: flex;
+}
+#header-top .container .header-to-content .icon{
+    font-size: 15px;
+    color: #cf942c;
+    line-height: 24px;
+    margin: 0 10px;
+}
+#header-top .container .header-to-content .text{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+/************************************header top end************************/
+/************************************nav-ber-start************************/
+nav{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+}
+nav .container .nav-content{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+nav .container .nav-content .logo{
+    width: 30%
+}
+nav .container .nav-content .nav-item{
+    width: 70%;
+}
+nav .container .nav-content .nav-item ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+
+}
+nav .container .nav-content .nav-item ul li{
+    list-style: none;
+
+
+}
+nav .container .nav-content .nav-item ul li a{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    position: relative;
+}
+nav .container .nav-content .nav-item ul li a:hover{
+    color: #cf942c;
+    transition: .4s;
+}
+nav .container .nav-content .nav-item ul li a:after{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #cf942c;
+
+
+
+}
+nav .container .nav-content .nav-item ul li a:hover:after{
+    width: 100%;
+    color: #cf942c;
+    transition: .4s;
+
+}
+
+
+/************************************nav-ber-end************************/
+/************************************banner-start************************/
+#banner{
+    background: url("image/lady-justice-2388500_1920.jpg") no-repeat;
+    background-size: cover;
+
+}
+#banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    padding: 100px;
+
+
+
+}
+
+#banner .overlay .container .banner-content{
+    width: 52%;
+    padding: 74px 5px;
+}
+#banner .overlay .container .banner-content h1{
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #cf942c;
+    margin: 25px 0 ;
+}
+#banner .overlay .container .banner-content p{
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+}
+#banner .overlay .container .banner-content a{
+    padding: 15px;
+    background: #cf942c;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#banner .overlay .left-icon{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+#banner .overlay .left-icon:hover{
+    transition: 0.4s;
+    color: #c68E2c;
+
+}
+#banner .overlay .right-icon{
+    color: #ffffff;
+    position: absolute;
+    top: 5%;
+    right: -13px;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+#banner .overlay .right-icon:hover{
+    transition: 0.4s;
+    color: #c68E2c;
+}
+
+
+/************************************banner-end************************/
+/************************************welcome start************************/
+#welcome .container .welcome-content{
+    display: flex;
+    position: relative;
+
+
+}
+#welcome .container .welcome-content .left-icon{
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    transition: 0.4s;
+}
+#welcome .container .welcome-content .left-icon:hover{
+    color: #cf942c;
+}
+#welcome .container .welcome-content .right-icon{
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    transition: 0.4s;
+}
+#welcome .container .welcome-content .right-icon:hover{
+    color: #cf942c;
+}
+#welcome .container .welcome-content .item{
+    width: 25%;
+    height: 250px;
+    border: 2px solid #C2c2c2;
+    margin: 10px;
+    position: relative;
+    transition: 0.4s;
+}
+#welcome .container .welcome-content .item:hover{
+    background: #cf942c;
+}
+#welcome .container .welcome-content .item:hover .item-content .icon{
+
+    color: #ffffff;
+
+}
+#welcome .container .welcome-content .item .item-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#welcome .container .welcome-content .item .item-content .icon {
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    color: #cf942c;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+#welcome .container .welcome-content .item .item-content .text{
+    font-size: 17px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    line-height: 15px;
+    color: #222222;
+
+}
+
+
+/************************************welcome end************************/
+/************************************about start************************/
+#about{
+    background: #f1f1f1;
+    padding-bottom: 100px;
+}
+#about .about-content{
+    display: flex;
+
+}
+#about .about-content .about-content-item .left{
+    width: 70%;
+
+}
+#about .about-content .about-content-item .item-content .icon{
+    color: #cf942c;
+    font-size: 25px;
+    padding: 0 10px;
+
+}
+#about .about-content .about-content-item .item-content{
+    display: flex;
+    align-items: center;
+
+}
+#about .about-content .about-content-item .item-content .text{
+     font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 500;
+    padding: 10px;
+
+}
+#about .about-content .about-content-item .right{
+    width: 30%;
+}
+#about img{
+    width: 100%;
+    margin-top: 250px;
+}
+#about .about-content-highlight{
+    position: relative;
+}
+#about .about-content-highlight .about-fix{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#about .about-content-highlight .more-button{
+    margin-top: 25px;
+}
+#about .about-content-highlight .about-fix a{
+   text-decoration: none;
+    border: 1px solid #c68E2c;
+    padding: 13px 13px;
+    margin-left: 100px;
+    color: #c68E2c;
+    font-weight: 600;
+    font-family: 'roboto', sans-serif;
+    transition: 0.4s;
+
+}
+
+#about .about-content-highlight .about-fix .more-button a:hover{
+    color: #c68E2c;
+    transition: .4s;
+
+}
+#about .about-content-highlight .about-fix .more-button a:hover:after{
+    background: #cf942c;
+    transition: .4s;
+    color: #f1f1f1;
+
+}
+
+/************************************about end************************/
+/************************************practice start************************/
+#practice .practice-content{
+    margin-top: 25px;
+    position: relative;
+}
+#practice .practice-content .practice-content-item .left-icon{
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    transition: 0.4s;
+    /*color: #c68E2c;*/
+    border: 1px solid #c68E2c;
+
+
+}
+#practice .practice-content .practice-content-item .left-icon:hover {
+    color: #cf942c;
+}
+#practice .practice-content .practice-content-item .right-icon{
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    transition: 0.4s;
+
+    border: 1px solid #c68E2c;
+
+}
+#practice .practice-content .practice-content-item .right-icon:hover{
+    color: #c68E2c;
+}
+#practice .practice-content .practice-content-item{
+    display: flex;
+    justify-content: space-between;
+
+}
+#practice .practice-content .item{
+    width: 22%;
+    padding: 0;
+    background: #f1f1f1;
+    height: 300px;
+    position: relative;
+    margin: 0 10px;
+
+}
+#practice .practice-content .item .item-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#practice .practice-content .item .item-content .icon{
+    text-align: center;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 35px;
+    color:#c68E2c;
+    margin-bottom: 5px;
+}
+#practice .practice-content .item .item-content .text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+
+}
+#practice .practice-content .item .item-content .text h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: max-content;
+
+    display: inline-block;
+    transition: 0.4s;
+    padding: 20px 20px 0;
+    line-height: 17px;
+    color: #222222;
+    text-align: center;
+
+}
+#practice .practice-content .item .item-content a{
+    margin-left: 20px;
+    padding: 10px 12px;
+    color: #c68E2c;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 65px;
+    border: 2px solid;
+    transition: 0.4s;
+}
+#practice .practice-content .item .item-content a:hover{
+  background: #c68E2c;
+    transition: 0.4s;
+
+}
+#practice .practice-content .item .item-content a:hover:after{
+    color: #f1f1f1;
+    transition: 0.4s;
+}
+
+
+
+/************************************practice end************************/
+
+
+
+
+/************************************************happy start **********************************/
+#happy .container .happy-content{
+    margin: 100px  0;
+    display: flex;
+    justify-content: space-between;
+    /*position: relative;*/
+}
+#happy .container .happy-content .c-item{
+    width: 30%;
+    padding: 30px;
+    background: #f1f1f1;
+    text-align: center;
+    transition: 0.4s;
+    margin: 15px;
+}
+#happy .container .happy-content .left-icon{
+    position: absolute;
+    top: 58%;
+    left: 3px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    transition: 0.4s;
+    border: 1px solid
+
+}
+#happy .container .happy-content .left-icon:hover{
+    color: #c68E2c;
+
+}
+#happy .container .happy-content .right-icon{
+    position: absolute;
+    top: 58%;
+    right: 3px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    transition: 0.4s;
+
+    border: 1px solid;
+
+}
+#happy .container .happy-content .right-icon:hover{
+    color: #c68E2c;
+}
+#happy .container .happy-content .c-item .c-name h6{
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    color: #222222;
+    font-size: 14px;
+}
+#happy .container .happy-content .c-item .c-name p{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    color: #222222;
+    font-size: 14px;
+    transition: 0.4s;
+
+}
+#happy .container .happy-content .c-item .c-img{
+    /*border-radius: 50%;*/
+    background: #ffffff;
+    /*width: 150px;*/
+    /*height: 150px;*/
+    /*overflow: hidden;*/
+    margin: 30px auto;
+    clip-path: circle();
+    /*text-align: center;*/
+
+}
+#happy .container .happy-content .c-item .c-img img{
+    margin-top: 30px;
+}
+#happy .container .happy-content .c-item .c-text p{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    transition: 0.4s;
+}
+#happy .container .happy-content .c-item .c-text:hover p{
+    color: white;
+
+}
+#happy .container .happy-content .c-item:hover{
+    background: #cf942c;
+
+}
+#happy .container .happy-content .c-item:hover .c-name p{
+    color: white;
+}
+
+/************************************************happy end **********************************/
+
+/************************************************out start**********************************/
+#our .container .our-content{
+    position: relative;
+    display: flex;
+}
+#our .container .our-content .left-icon{
+    position: absolute;
+    top: 58%;
+    left: -60px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    transition: 0.4s;
+    border: 1px solid#c68E2c;
+    color: #c68E2c;
+
+
+}
+#our .container .our-content .left-icon:hover{
+    background: #c68E2c;
+}
+#our .container .our-content .left-icon:hover:after{
+    color: #f1f1f1;
+}
+#our .container .our-content .right-icon{
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    transition: 0.4s;
+    border: 1px solid#c68E2c;
+    color: #c68E2c;
+
+}
+#our .container .our-content .our-img{
+    width: 40%;
+}
+#our .container .our-content .our-img-content{
+    width: 60%;
+    padding: 50px;
+    background: #cf942c;
+}
+#our .container .our-content .our-img-content .lawyer-name{
+    position: relative;
+}
+#our .container .our-content .our-img-content .lawyer-name h5{
+    font-family: 'roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    color: #ffffff;
+}
+#our .container .our-content .our-img-content .lawyer-name h6{
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+}
+#our .container .our-content .our-img-content .lawyer-name:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+}
+#our .container .our-content .our-img-content .text p{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 20px;
+}
+#our .container .our-content .our-img-content .lawyer-social a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 20px;
+
+
+}
+
+
+/************************************************out end**********************************/
+/************************************************blog start**********************************/
+#blog .container .blog-content{
+    margin: 100px 0;
+    width: 30%;
+    padding: 30px;
+}
+#blog .container .blog-fix{
+    display: flex;
+    justify-content: space-around;
+}
+#blog .container .blog-content .img{
+    height: 219px;
+}
+
+#blog .container .blog-content .text{
+
+    background: #f1f1f1;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    margin-top: 31px;
+    width: 373px;
+}
+#blog .container .blog-content .text .headline {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #cf942c;
+    padding: 10px;
+
+
+}
+#blog .container .blog-content .text .date:hover{
+    transition: 0.4s;
+    color: #cf942c;
+}
+#blog .container .blog-content .text .date{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222222;
+    padding: 10px;
+
+
+}
+#blog .container .blog-content .text .details:hover{
+    transition: 0.4s;
+    color: #cf942c;
+
+
+}
+#blog .container .blog-content .text .details {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222222;
+    padding: 10px;
+
+}
+
+/************************************************blog end**********************************/
+/************************************************footer start**********************************/
+#footer{
+    background: #f1f1f1;
+    padding:  50px 0;
+
+}
+#footer .footerlogo{
+    text-align: center;
+    border-bottom: 2px solid #c68E2c;
+    /*width: 100%;*/
+    padding: 10px 0;
+}
+#footer .footer-content{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer-content .a-company{
+    width: 25%;
+}
+
+#footer .footer-content .text{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #c68E2c;
+    position: relative;
+    display: inline-block;
+
+}
+#footer .footer-content .text:after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #c68E2c;
+}
+#footer .footer-content .a-content{
+    margin-top: 25px;
+
+}
+#footer .footer-content .a-company .a-icon{
+    margin-top: 10px;
+    margin-right: -10px;
+}
+#footer .footer-content .a-company .a-icon a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    margin: 20px ;
+    transition: 0.4s;
+}
+#footer .footer-content .a-company .a-icon a:hover{
+    color:  #c68E2c;
+}
+#footer .footer-content .k-touch{
+    display: flex;
+    margin-top: 33px;
+
+}
+#footer .footer-content .k-touch ul {
+    margin: 0 5px;
+    align-items: center;
+}
+#footer .footer-content .k-touch ul li i{
+    font-size: 15px;
+    color: #cf942c;
+
+}
+#footer .footer-content .k-touch ul li {
+    color: #222222;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/************************************************footer end**********************************/
